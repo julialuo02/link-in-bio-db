@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  get("/", { :controller => "zebra", :action => "giraffe" })
+  get("/", { :controller => "items", :action => "index" })
 end
